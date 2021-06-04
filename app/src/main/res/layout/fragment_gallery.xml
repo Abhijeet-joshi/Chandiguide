@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff">
+
+        <ImageView
+            android:layout_width="@dimen/_300sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:src="@drawable/chandigarh"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/black"
+            android:background="#EFEBEB"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="Chandigarh, the capital of the northern Indian states of Punjab and Haryana, was designed by the Swiss-French modernist architect, Le Corbusier. His buildings include the Capitol Complex with its High Court, Secretariat and Legislative Assembly, as well as the giant Open Hand Monument. The nearby Rock Garden is a park featuring sculptures made of stones, recycled ceramics and industrial relics."
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/_7sdp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_13ssp"
+            android:textColor="@color/black"
+            android:background="#EFEBEB"
+            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:text="Area: 114 km²\nElevation: 321 m\nWeather: 35 °C, Wind S at 18 km/h, 26% Humidity"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_gravity="center_vertical"
+            android:padding="@dimen/_7sdp"/>
+
+    </LinearLayout>
+
+</ScrollView>
